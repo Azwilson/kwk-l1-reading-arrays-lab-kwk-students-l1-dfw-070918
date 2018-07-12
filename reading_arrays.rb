@@ -9,8 +9,8 @@ student_name = [
 
 def first_student_by_index
  student_name = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
-  return student_name[0] 
-  
+  return student_name [0] 
+  student_name[0] = "Adele"
 end
 
 def fourth_student_by_index
@@ -35,5 +35,5 @@ end
 
 def first_second_and_third_students
   students_name = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
-  return students_name[0 , 1 , 3]
-end
+  return students_name[0 , 1 , 2]
+ end
